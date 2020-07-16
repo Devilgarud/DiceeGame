@@ -6,7 +6,7 @@ function diceGame() {
   if(player1 > player2) {
     document.querySelector("h1").textContent = "🚩 Player 1 Won";
   } else if(player1 < player2) {
-    document.querySelector("h1").textContent = "🚩 Player 2 Won";
+    document.querySelector("h1").textContent = "Player 2 Won 🚩";
   }
 
     document.querySelectorAll("img")[0].setAttribute("src", "images/dice" + player1 + ".png");
